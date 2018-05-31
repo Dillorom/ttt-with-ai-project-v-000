@@ -1,6 +1,6 @@
 module Players
   class Computer < Player
-    def move(board)
+    def move(input)
       input = gets.strip
       input
     end
