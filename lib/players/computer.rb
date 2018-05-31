@@ -1,6 +1,6 @@
 module Players
   class Computer < Player
-    def move
+    def move(board)
 
     end
   end
