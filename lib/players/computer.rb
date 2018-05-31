@@ -1,9 +1,7 @@
 module Players
   class Computer < Player
     def move(board)
-      @board = board
-      @board.valid_move?
-
+      (rand() * 9).floor.to_s
     end
   end
 end
