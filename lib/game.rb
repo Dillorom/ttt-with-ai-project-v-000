@@ -61,7 +61,7 @@ class Game
   def play
     turn
 
-  
+
 
 
 
