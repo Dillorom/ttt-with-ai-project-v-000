@@ -61,11 +61,9 @@ class Game
   def play
     turn
 
-    if !over?
-      turn
-    end
+  
 
-    gets.strip
+
 
 
   end
