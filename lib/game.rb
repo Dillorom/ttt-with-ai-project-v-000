@@ -60,6 +60,7 @@ class Game
 
   def play
     turn
+    over?
 
 
 
