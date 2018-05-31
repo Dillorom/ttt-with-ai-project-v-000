@@ -48,6 +48,7 @@ class Game
 
   def turn
     puts "Enter a number between 1-9"
+
     current_move = current_player.move(@board)
     if @board.valid_move?(current_move)
       @board.update(current_move, current_player)
@@ -62,6 +63,10 @@ class Game
     if !over?
       turn
     end
+
+    gets.strip
+
+
   end
 
 end
