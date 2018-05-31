@@ -59,8 +59,15 @@ class Game
   end
 
   def play
-    turn
-    over?
+    until over?
+      turn
+    end
+    if won?(board)
+     puts "Congratulations #{winner}!"
+    elsif draw?
+     puts "Cat's Game!"
+    end
+  end
 
 
 
